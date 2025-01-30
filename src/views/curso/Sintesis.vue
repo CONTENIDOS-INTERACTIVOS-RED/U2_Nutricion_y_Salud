@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad I: Marco legal y conceptualización establece los fundamentos esenciales para comprender la relación entre nutrición, salud y desarrollo infantil, con un enfoque particular en el marco normativo que garantiza el derecho a una alimentación adecuada. Esta unidad aborda conceptos clave como salud individual y colectiva, promoción, prevención, y ambientes saludables, además de analizar la triple carga de la malnutrición y sus implicaciones. Este enfoque integral asegura que los estudiantes desarrollen una comprensión sólida de los fundamentos de la nutrición infantil, permitiéndoles identificar estrategias efectivas para mejorar las condiciones de vida de la niñez y fomentar un desarrollo saludable en diversos contextos.
+      p(data-aos="fade-up").mb-5 La Unidad 2: Nutrición infantil, aborda la importancia de garantizar una alimentación adecuada desde la gestación hasta los primeros años de vida, destacando el papel fundamental de la nutrición en el desarrollo físico y cognitivo de los niños y niñas. En esta unidad se exploran los factores socioeconómicos que inciden en la salud nutricional infantil, los requerimientos alimentarios por edad, y la evaluación del crecimiento mediante las curvas de desarrollo.
 
       .row.justify-content-center
         .col-lg-12.mb-5

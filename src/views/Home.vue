@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde el inicio de la humanidad, la alimentación ha sido un pilar esencial para la supervivencia y el desarrollo de los seres vivos. En los humanos, este proceso se basa en la obtención y aprovechamiento de nutrientes a través de los alimentos consumidos, siendo fundamental para garantizar un desarrollo integral saludable. Cuando la alimentación es inadecuada o insuficiente, pueden surgir enfermedades asociadas, afectando gravemente la salud, especialmente en los más vulnerables: los niños. En esta primera unidad, se explorará el marco legal y conceptual relacionado con la nutrición infantil, abordando temas como la normatividad nacional e internacional que protege el derecho a una alimentación adecuada, los conceptos de salud, prevención y promoción, y las características de un entorno saludable. Además, se analizarán los desafíos relacionados con la triple carga de la malnutrición, desde la desnutrición hasta el sobrepeso y la obesidad, identificando factores determinantes y posibles soluciones. 
+              p.descripcion.mb-4 Desde el período de gestación hasta los primeros años de vida, la nutrición juega un papel fundamental en el desarrollo y bienestar de los niños y niñas. En esta unidad, se explorará cómo las condiciones socioeconómicas y el entorno familiar influyen directamente en el estado nutricional infantil, y se analizarán los requerimientos alimentarios por edad, así como las curvas de crecimiento que permiten evaluar el desarrollo adecuado de los menores. La comprensión de estos factores es clave para promover prácticas alimenticias saludables que impacten positivamente en la calidad de vida y la prevención de enfermedades.
               
-              p #[b ¡Prepárese para profundizar en los fundamentos de la nutrición infantil y su relación con un desarrollo integral saludable!]
+              p #[b ¡Prepárese para afrontar los retos del trabajo virtual con confianza y eficacia!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Marco legal y conceptualización',
+    numeroUnidad: '2',
+    tituloUnidad: 'Nutrición infantil ',
   },
   menuPrincipal: {
     menu: [
@@ -15,25 +15,27 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Marco legal de nutrición',
+        titulo:
+          'Condiciones socioeconómicas que afectan la salud y la nutrición infantil',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Triple carga de la malnutrición',
+            titulo: 'Seguridad alimentaria',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Normatividad internacional',
+            titulo: 'Soberanía alimentaria',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Normatividad nacional',
+            titulo:
+              'Factores que inciden en la nutrición infantil y que guardan correlación con las condiciones socioeconómicas',
             hash: 't_1_3',
           },
           {
