@@ -38,40 +38,38 @@ export default {
               'Factores que inciden en la nutrición infantil y que guardan correlación con las condiciones socioeconómicas',
             hash: 't_1_3',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Sobre las etiquetas en los productos alimenticios',
-            hash: 't_1_4',
-          },
         ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Conceptos de enfermedad, promoción, prevención, salud individual, salud colectiva, ambientes saludables',
+        titulo: 'Grupos y requerimientos alimentarios por edad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Alimentación durante el embarazo',
+            titulo: 'Mujeres gestantes',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Etapa de lactancia',
+            titulo: 'Período de lactancia',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo:
-              'Primeros alimentos y prácticas de alimentación de los bebés y niños de corta edad',
+            titulo: 'Recomendaciones alimenticias de los 6 meses a los 2 años',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Alimentación de los infantes de los 2 años en adelante',
+            hash: 't_2_4',
           },
         ],
       },
@@ -79,23 +77,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Prevención en situaciones de riesgo para la salud infantil',
+        titulo: 'Curva de crecimiento y desarrollo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Promoción, prevención, salud individual, salud colectiva y ambientes saludables',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Enfermedades infantiles asociadas a la nutrición',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -124,36 +107,71 @@ export default {
   referencias: [
     {
       referencia:
-        'Consejo Nacional de Política Económica Social República de Colombia Departamento Nacional de Planeación (2007). Documento CONPES social 113. POLÍTICA NACIONAL DE SEGURIDAD ALIMENTARIA Y NUTRICIONAL. ',
+        'ICBF y FAO (2018). Guías Alimentarias basadas en Alimentos para mujeres gestantes, madres en período de lactancia y niños y niñas menores de 2 años para Colombia. ',
       link:
-        'https://www.minagricultura.gov.co/Normatividad/Conpes/Conpes%20113%20de%202008.pdf ',
-    },
-    {
-      referencia: 'Declaración de Roma Sobre la Seguridad Alimentaria.',
-      link: 'https://www.oda-alc.org/documentos/1341937156.pdf ',
+        'https://www.minambiente.gov.co/wp-content/uploads/2023/11/GUIAS_4.pdf ',
     },
     {
       referencia:
-        'Deutsche Wlthungerhife e.V. y Concern Worldwode (2021). El mapa del hambre en el mundo. ',
+        'ICBF y FAO (2018). Guías Alimentarias Basadas en Alimentos para la Población Colombiana Mayor de 2 Años. ',
       link:
-        'https://elordenmundial.com/mapas-y-graficos/el-mapa-del-hambre-en-el-mundo/',
+        ' https://www.minambiente.gov.co/wp-content/uploads/2023/11/guias_alimentarias_basadas_en_alimentos_para_la_poblacion_colombiana_mayor_de_2_anos_0.pdf',
     },
     {
       referencia:
-        'Gobierno de Colombia. (2018). POLÍTICA NACIONAL DE INFANCIA Y ADOLESCENCIA 2018-2030.',
+        'Latham (2002). En la Comisión Intersectorial de Seguridad Alimentaria y Nutricional de Colombia. (2017). Lineamiento  Nacional de Educación Alimentaria y Nutricional. Bogotá, Colombia.  ',
       link:
-        'https://www.icbf.gov.co/sites/default/files/politica_nacional_de_infancia_y_adolescencia.pdf ',
+        'https://www.icbf.gov.co/system/files/lineamiento_nacional_de_educacion_alimentaria_y_nutricional_validacion_ctean.pdf',
     },
     {
       referencia:
-        'Bonilla Caballero, Y. (2012).  Análisis detallado de las políticas de alimentación escolar en América Latina para el fortalecimiento del programa de alimentación escolar en Colombia. FAO. Colombia.  ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/96510 ',
+        'MINISTERIO DE SALUD. Fortalecimiento de la estrategia IAMI integral en departamentos priorizados Convenio 519 de 2015. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/lineamientos-iami-2016.pdf ',
     },
     {
       referencia:
-        'Correa Restrepo, M. (2010). Apuesta por la infancia en Colombia: (ed.). Barranquilla, Colombia: Universidad del Norte. Universidad del Valle, Fundación Fesco, Fundación Caminos de Identidad, Fundación Cultural Genninnndo, Fundación Bernard van Leen, Barranqujlla: Ediciones Uninorte, 20107.',
+        'PNUD. (2017). Programa de las Naciones Unidas para el Desarrollo - PNUD . Los ODS en Acción. Página web. ',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/85292?page=6. ',
+        'https://www.undp.org/es/colombia/objetivos-de-desarrollo-sostenible',
+    },
+    {
+      referencia: 'REPÚBLICA DE COLOMBIA (2016). Resolución 2465 del ICBF. ',
+      link:
+        'https://www.icbf.gov.co/sites/default/files/resolucion_no._2465_del_14_de_junio_de_2016.pdf',
+    },
+    {
+      referencia:
+        'Bonilla Caballero, Y. (2012).  Análisis detallado de las políticas de alimentación escolar en América Latina para el fortalecimiento del programa de alimentación escolar en Colombia. FAO. Colombia. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/94658',
+    },
+    {
+      referencia:
+        'ACCIÓN CONTRA EL HAMBRE. (2024). Programa de acción contra el hambre. ¿Cuál es la situación actual del hambre en el mundo? Página web. ',
+      link: 'www.accioncontraelhambre.org',
+    },
+    {
+      referencia:
+        'REPÚBLICA DE COLOMBIA. (2008). Consejo Nacional de Política Económica Social. Documento  Conpes Social 113. Política Nacional de Seguridad Alimentaria y Nutricional. Bogotá, Colombia. ',
+      link:
+        'https://www.minagricultura.gov.co/Normatividad/Conpes/Conpes%20113%20de%202008.pdf',
+    },
+    {
+      referencia:
+        'REPÚBLICA DE COLOMBIA y UNICEF. (2011). Instituciones Amigas de la Mujer y la Infancia - IAMI. Lineamientos y criterios globales para el cumplimiento de los 10 pasos de la estrategia. Bogotá, Colombia. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/lineamientos-ami-2011.pdf ',
+    },
+    {
+      referencia:
+        'Correa Restrepo, M. (2010). Apuesta por la infancia en Colombia: (ed.). Barranquilla, Colombia: Universidad del Norte. Universidad del Valle, Fundación Fesco, Fundación Caminos de Identidad, Fundación Cultural Genninnndo, Fundación Bernard van Leen, Barranqujlla: Ediciones Uninorte, 20107 ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/85292?page=6.',
+    },
+    {
+      referencia:
+        'REPÚBLICA DE COLOMBIA, MINISTERIO DE SALUD e ICBF. (2016). Resolución MINSALUD 2465 . Bogotá, Colombia. ',
+      link:
+        'www.icbf.gov.co/sites/default/files/anexo_tecnico_3_y_4_resolucion_no._2465_de_2016.pdf',
     },
     {
       referencia:
@@ -163,84 +181,69 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Acceso a la alimentación ',
+      termino: 'Antropometría',
       significado:
-        'posibilidad de todas las personas de alcanzar una alimentación adecuada y sostenible. Se refiere a los alimentos que puede obtener o comprar una familia, una comunidad o un país. Sus determinantes básicos son el nivel de ingresos, la condición de vulnerabilidad, las condiciones socio-geográficas, la distribución de ingresos y activos (monetarios y no monetarios) y los precios de los alimentos.',
+        'rama de la ciencia que se ocupa de las mediciones comparativas del cuerpo humano, sus diferentes partes y sus proporciones.',
     },
     {
-      termino: 'Aprovechamiento o utilización biológica de los alimentos',
+      termino: 'Contaminación cruzada',
       significado:
-        'se refiere a cómo y cuánto aprovecha el cuerpo humano los alimentos que consume y cómo los convierte en nutrientes para ser asimilados por el organismo. Sus principales determinantes son: el medio ambiente, el estado de salud de las personas, los entornos y estilos de vida, la situación nutricional de la población, la disponibilidad, la calidad y el acceso a los servicios de salud, agua potable, saneamiento básico y fuentes de energía.',
+        'es la transferencia de microorganismos, como bacterias, virus, parásitos o toxinas, de un alimento a otro. ',
     },
     {
-      termino: 'Inocuidad de los alimentos',
+      termino: 'Curvas de crecimiento ',
       significado:
-        'se refiere al conjunto de características de los alimentos que garantizan que sean aptos para el consumo humano, que exigen el cumplimiento de una serie de condiciones y medidas necesarias durante la cadena agroalimentaria hasta el consumo y el aprovechamiento de estos, asegurando que una vez ingeridos no representen un riesgo (biológico, físico o químico) que menoscabe la salud. No se puede prescindir de la inocuidad de un alimento al examinar la calidad, dado que la inocuidad es un atributo de la calidad. Sus determinantes básicos son: la normatividad (elaboración, promoción, aplicación, seguimiento); la inspección, vigilancia y control; los riesgos biológicos, físicos y químicos, y la manipulación, conservación y preparación de los alimentos.',
+        'son un instrumento que se emplea en el sistema de salud para la promoción y prevención a partir de patrones de estatura, peso y tamaño de la cabeza de los niños, en comparación con otros infantes del mismo rango de edad.',
     },
     {
-      termino: 'Carbohidratos',
+      termino: 'Desviación estándar',
       significado:
-        'los carbohidratos son uno de los macronutrientes y la principal fuente de energía del cuerpo. Existen dos tipos principales de carbohidratos: los azúcares (presente en la leche, las frutas, el azúcar de mesa y los dulces) y los almidones, que se encuentran principalmente en los cereales, tubérculos, panes, galletas y pastas.',
+        'medida que expresa la dispersión de una serie de valores o puntuaciones con relación a la media aritmética',
     },
     {
-      termino: 'Consumo',
+      termino: 'Edad gestacional',
       significado:
-        'se refiere a los alimentos que comen las personas y está relacionado con la selección de estos, las creencias, las actitudes y las prácticas. Sus determinantes son: la cultura, los patrones y los hábitos alimentarios, la educación alimentaria y nutricional, la información comercial y nutricional, el nivel educativo, la publicidad, el tamaño y la composición de la familia.',
+        'parámetro usado durante la gestación para describir el avance de la gestación a lo largo del tiempo y se mide en semanas, desde la semana 1 hasta la semana 42. Los niños y niñas nacidos antes de la semana 37 son prematuros y los nacidos después de la semana 42 se consideran posmaduros. ',
     },
     {
-      termino: 'Desnutrición',
+      termino: 'Estado nutricional',
       significado:
-        'corresponde a la condición que se produce cuando el cuerpo no recibe los nutrientes necesarios para mantenerse sano. Puede ser causada por una mala alimentación, inanición, trastornos alimentarios, o por problemas para digerir o absorber los nutrientes. ',
+        'resultado de la relación entre la ingesta de energía y nutrientes y el gasto causado por los requerimientos nutricionales, según la edad, sexo, estado fisiológico y actividad física.  ',
     },
     {
-      termino: 'Disponibilidad de alimentos',
+      termino: 'Gestación',
       significado:
-        'cantidad de alimentos con que se cuenta a nivel nacional, regional y local. Está relacionada con el suministro suficiente de estos frente a los requerimientos de la población y depende de la producción y la importación. Está determinada por: la estructura productiva (agropecuaria, agroindustrial), los sistemas de comercialización internos y externos, los factores productivos (tierra, crédito, agua, tecnología, recurso humano), las condiciones ecosistémicas (clima, recursos genéticos y biodiversidad), las políticas de producción y comercio, y las tensiones sociopolíticas (relaciones económicas, sociales y políticas entre actores).',
+        'período de tiempo comprendido entre la concepción y el nacimiento. Durante este tiempo, el feto crece y se desarrolla dentro del útero de la madre',
     },
     {
-      termino: 'Entorno saludable ',
+      termino: 'Gobernanza alimentaria',
       significado:
-        'un entorno saludable es aquel que brinda los elementos necesarios para la salud física y espiritual, el bienestar cultural y la felicidad de las personas. Estos entornos se encuentran en los lugares donde viven las personas, como el hogar, el barrio, la localidad, los sitios de estudio, los lugares de trabajo y esparcimiento.',
+        'se relaciona con los procesos, instituciones, procedimientos y prácticas que se utilizan para regular y decidir los asuntos de la sociedad en materia de alimentación. ',
     },
     {
-      termino: 'Emaciación',
+      termino: 'Guías alimentarias',
       significado:
-        'tipo de desnutrición que se caracteriza por un peso insuficiente en relación con la altura, causado por una pérdida de peso repentina, ya sea por una alimentación insuficiente o por una enfermedad infecciosa y en paralelo.',
+        'conjunto de planteamientos que brindan orientación sobre el consumo de alimentos, para promover el bienestar nutricional.',
     },
     {
-      termino: 'Grasas',
+      termino: 'Indicador antropométrico',
       significado:
-        'son nutrientes que el cuerpo utiliza para generar energía, hormonas, membranas celulares y tejido nervioso. También ayudan a absorber las vitaminas A, D, E y K. Provienen de origen animal y vegetal, principalmente de nueces, aceites vegetales, el aguacate y el coco. Pueden ser saturadas o insaturadas, y la mayoría de los alimentos contienen ambos tipos. Sin embargo, es importante consumirlas con moderación, ya que el exceso de grasa puede ser poco saludable.',
+        'índice estadístico que surge de dos variables que se utiliza para medir cuantitativamente el crecimiento y estado nutricional, toma como base medidas corporales y se obtiene mediante la comparación, contra valores de referencia para la edad y sexo o contra mediciones realizadas en el mismo sujeto en diferentes períodos.',
     },
     {
-      termino: 'Hambre',
+      termino: 'Inocuidad',
       significado:
-        'es la sensación física que además de parecer incómoda es dolorosa, causada por un consumo insuficiente de energía alimentaria. Es crónica cuando la persona no consume una cantidad suficiente de calorías de forma regular para llevar una vida normal, activa y saludable, según su edad, estilo de vida y requerimientos nutricionales.',
+        'característica de un producto alimenticio que garantiza que no causa daño a la salud de las personas que lo consumen.',
     },
     {
-      termino: 'Inseguridad alimentaria',
+      termino: 'Patrón de referencia',
       significado:
-        'es la falta de acceso regular a los alimentos nutritivos e inocuos, o la incapacidad de pagarlos.',
+        'estándar utilizado para la valoración antropométrica mediante la comparación de los datos obtenidos, contra la referencia teórica o ideal.',
     },
     {
-      termino: 'Minerales',
+      termino: 'Soberanía alimentaria',
       significado:
-        'los minerales son clasificados como macrominerales y microminerales, según la cantidad que debe de ser ingerida por persona. El cuerpo humano necesita una mayor cantidad de calcio, fósforo, magnesio, sodio, potasio, cloro y azufre, que son considerados macrominerales. Se encuentran en una gran cantidad de alimentos como frutas y verduras, lácteos, leguminosas, productos de origen animal y cereales por lo que la importancia de llevar una dieta balanceada contribuye a alcanzar los niveles adecuados de estos nutrimentos. ',
-    },
-    {
-      termino: 'Proteínas',
-      significado:
-        'son macromoléculas formadas por cadenas de aminoácidos, provienen principalmente de origen animal y en menor proporción y diversidad de aminoácidos, de origen vegetal. Su importancia en la alimentación radica en que son necesarias para la estructura, función y regulación de los tejidos y órganos del cuerpo.',
-    },
-    {
-      termino: 'Sistema de salud',
-      significado:
-        'es una estructura social que reúne a personas y acciones para mejorar y mantener la salud de la población. En Colombia, el sistema de salud está regulado por el Ministerio de la Salud y Protección Social y es parte del Sistema de Seguridad Social.',
-    },
-    {
-      termino: 'Vitaminas',
-      significado:
-        'son sustancias orgánicas que el cuerpo necesita para crecer, desarrollarse y funcionar correctamente. Son esenciales para el funcionamiento celular y se obtienen principalmente a través de la alimentación',
+        'movimiento que busca devolverle al consumidor la capacidad de decisión y control de lo que lleva a la mesa, que esté por encima de los productores agroindustriales e intereses económicos. ',
     },
   ],
 }

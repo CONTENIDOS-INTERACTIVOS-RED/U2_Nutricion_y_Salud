@@ -1,141 +1,142 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Prevención en situaciones de riesgo para la salud infantil'")
+  BannerInterno(:subTitulo="'3. Curva de crecimiento y desarrollo'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5.align-items-center
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0.order-2
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
-      .col-lg-8 
-        p(data-aos="fade-left").mb-4 Invertir y cuidar la infancia es aportar al capital humano y en las generaciones futuras, por eso los mandatarios, familias, docentes y cuidadores, tienen la obligación que cada niño cumpla con su derecho a vivir, sobrevivir, desarrollarse, aprender, jugar y participar. 
-        .bg-color-5.p-4(data-aos="fade-left").mb-3
+      .col-lg-8.order-1 
+        .bg-color-2.p-4(data-aos="fade-left").mb-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 De acuerdo con la agenda 2030 de los Objetivos del Desarrollo Sostenible y la Estrategia Mundial para la Salud de las Mujeres, los Niños y los Adolescentes, se están recomendando enfoques más integrados y colaborativos para abordar las desigualdades en salud, el ámbito social, las dimensiones ambientales y económicas del desarrollo. El crecimiento y desarrollo saludable y óptimo de la niñez también requiere un hogar seguro, un vecindario seguro y protección contra la violencia y la disciplina dañina.
-
-    #t_3_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.1] Promoción, prevención, salud individual, salud colectiva y ambientes saludables
+              p.mb-0 Las curvas de crecimiento son un instrumento que se emplea en el sistema de salud para la promoción y prevención a partir de patrones de estatura, peso y tamaño de la cabeza de los niños, en comparación con otros infantes del mismo rango de edad. 
+        p(data-aos="fade-left").mb-4 En el siguiente ejemplo, se visualiza un prototipo de tabla de crecimiento para niñas entre los 0 – 2 años, teniendo como referente el peso en kilogramos y la longitud de la niña. Las curvas de crecimiento son diferenciales para niños y niñas, dadas las condiciones de su desarrollo, según género.
     
-    p.mb-4 La <b>promoción y prevención</b> de la salud desde la infancia, son importantes para un crecimiento seguro, un desarrollo personal y una adultez prometedora.
-
-    .row.mb-5.align-items-center
-      .col-lg-8
-        .bg-color-1.p-4(data-aos="fade-left").mb-3
-          p(data-aos="fade-left").mb-0 La promoción de la salud busca que todas las personas tengan un mayor control sobre su salud y la mejoren, mitigando el impacto de los entornos y contextos y mejorando hábitos y rutinas individuales o colectivas. 
-        p.text-bold ¿Cómo se puede evitar la desnutrición crónica infantil?
-        p Es necesario trabajar en políticas públicas integrales que garanticen:
-      .col-lg-4.d-none.d-sm-block
-        figure
-          img(src="@/assets/curso/tema3/3.png", data-aos="zoom-in").mb-4.mb-lg-0 
-    
-
-    .titulo-figura.mb-4
-      h5 Figura 6. 
-      span Recomendaciones sobre la prevención de la desnutrición crónica infantil
-    .bg-full-width.bg-color-7
-      .p-5
-        .row.justify-content-center.align-items-center.p-4
-          .col-lg-11
-            figure
-              img(src="@/assets/curso/tema3/4d.png", data-aos="zoom-in")
-    
-    .bg-full-width.bg-color-6.mb-5
-      .px-4.px-md-5.py-4
-        p.mb-0.text-bold Los primeros 1.000 días de vida, corresponden a casi los 3 primeros años de vida de un infante, etapa crucial del crecimiento.
-    
-    p.mb-4 La prevención es clave para evitar enfermedades y problemas de salud, además es más efectivo (e incluso económico) prevenir enfermedades o lesiones que tratarlos una vez que se han desarrollado. 
-
-    .bg-h85
-      .row.justify-content-end.align-items-end.mb-4
-        .col-lg-6.order-2
-          p.text-bold Algunas acciones para promover la salud en la infancia son: 
-          ol.lista-ol--cuadro(data-aos="fade-up")
-            li 
-              .lista-ol--cuadro__vineta.text-white.bg-color-9
-                span 1
-              | Hay que asegurar que los niños duerman y se ejerciten lo suficiente. 
-            li 
-              .lista-ol--cuadro__vineta.text-white.bg-color-9
-                span 2
-              | Aportarles alimentos saludables.
-            li 
-              .lista-ol--cuadro__vineta.text-white.bg-color-9
-                span 3
-              | Garantizar su seguridad en el lugar donde se encuentren. 
-            li 
-              .lista-ol--cuadro__vineta.text-white.bg-color-9
-                span 4
-              | Realizar chequeos médicos regulares y activar protocolos en caso de alertas tempranas.
-            li 
-              .lista-ol--cuadro__vineta.text-white.bg-color-9
-                span 5
-              | Participar activamente en estrategias de promoción de la salud. 
-
-        .col-lg-6.order-1.mb-3.mb-lg-0
+    .row.mb-5.bg-color-7.p-4
+      .col-lg-6
+        .titulo-figura.mb-4
+          h5 Figura 2. 
+          span Curva de crecimiento de niñas de 0- 2 años - Referente para Colombia (ICBF)
           figure
-            img(src="@/assets/curso/tema3/5.svg", data-aos="zoom-in")
+            img(src="@/assets/curso/tema3/3.png", data-aos="zoom-in")
+            figcaption Nota. Tomado de la Resolución MINSALUD 2465 del 14 de junio del 2016.
+      .col-lg-6
+        .titulo-figura.mb-4
+          h5 Figura 3. 
+          span Curva de crecimiento de niños de 0- 2 años - Referente para Colombia (ICBF)
+          figure
+            img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
+            figcaption Nota. Tomado de la Resolución MINSALUD 2465 del 14 de junio del 2016.
     
-    .titulo-figura.mb-4
-      h5 Figura 7. 
-      span Los entornos seguros y saludables para la niñez, consideran la promoción y prevención
-    .row.justify-content-center.align-items-center.mb-5.bg-color-7.p-4
-      .col-lg-8
+    .row.mb-5.align-items-center
+      .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/6.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/5.png", data-aos="zoom-in")
+      .col-lg-7
+        p Cuando el profesional de la salud identifica cambios sustanciales, remite a los niños y niñas a la orientación médica con el fin de identificar las causas de dichos trastornos o retrasos en el crecimiento. Dentro de las variables que se analizan en las curvas, se encuentran:
+        ul.lista-ul.mb-0
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 Peso para la talla.   
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 Talla para la edad.  
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 Perímetro cefálico.
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 Índice de masa corporal – IMC.
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 Peso para la edad. 
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 IMC para la edad. 
+          li.mb-0.d-flex
+            i.far.fa-arrow-alt-circle-right 
+            p.mb-0 Talla para la edad.
     
+    p.mb-4 Para entender la Antropometría, los médicos y profesionales de la salud incluyen algunas medidas claves para el seguimiento a los infantes, dentro de lo que se destaca:
 
-    #t_3_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.2] Enfermedades infantiles asociadas a la nutrición
+    .bg-full-width.bg-color-info.mb-5
+      .p-4.p-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-10
+            ImagenInfografica.color-secundario
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema3/6.svg', alt='', style="max-width: 1106px;").mx-auto
+    
+              .bg-color-white.box-shadow.p-3(x="3%" y="93.5%" numero="+")
+                h5 Puntuación Z (Z Score)
+                p Es la diferencia entre el valor individual y el valor medio de la población de referencia, para la misma edad o talla, dividido entre la desviación estándar de la población de referencia, es decir, identifica cuán lejos de la mediana (de la población de referencia) se encuentra el valor individual obtenido. 
+      
+              .bg-color-white.box-shadow.p-3(x="28.7%" y="93.5%" numero="+")
+                h5 Circunferencia de la cintura
+                p Medición del perímetro medio del abdomen en su parte más estrecha o más angosta; determinar la presencia de obesidad abdominal.
+      
+              .bg-color-white.box-shadow.p-3(x="57.7%" y="94%" numero="+")
+                h5 Perímetro del brazo
+                p Es la medición del perímetro del brazo en el punto medio entre los puntos acromial y radial o entre los puntos acromial y olécranon . Es una medida útil como predictor del riesgo de muerte por desnutrición en niñas y niños de 6 a 59 meses de edad.
+      
+              .bg-color-white.box-shadow.p-3(x="83.7%" y="93.5%" numero="+")
+                h5 Talla para la edad
+                p Indicador de crecimiento que relaciona la talla o longitud con la edad. Da cuenta del estado nutricional histórico o acumulativo. 
+      
+              .bg-color-white.box-shadow.p-3(x="17.5%" y="8%" numero="+")
+                h5 IMC para la edad
+                p Índice de masa corporal es un indicador que relaciona, de acuerdo con la edad, el peso corporal total en relación a la talla. Se obtiene al dividir el peso expresado en kilogramos entre la talla expresada en metros cuadrados.   
+              .bg-color-white.box-shadow.p-3(x="42.5%" y="8%" numero="+")
+                h5 Desnutrición
+                p En la medición se indica que la valoración está por debajo de la línea de puntuación -2 desviaciones estándar de puntuación Z en los indicadores peso para la edad, peso para la longitud/talla, longitud/talla para la edad o IMC para la edad.
+              .bg-color-white.box-shadow.p-3(x="70%" y="5.7%" numero="+")
+                h5 Peso bajo para la edad
+                p Peso para la edad por debajo de -2 desviaciones estándar, indica bajo peso para una edad específica, considerando el patrón de referencia.  
+                ul.lista-ul.mb-0
+                  li.mb-3.d-flex
+                    i.far.fa-arrow-alt-circle-right 
+                    p.mb-0 Peso para la edad: indicador antropométrico que relaciona el peso con la edad sin considerar la talla. 
+                  li.mb-3.d-flex
+                    i.far.fa-arrow-alt-circle-right 
+                    p.mb-0 Peso para la longitud/talla: un indicador de crecimiento que relaciona el peso con longitud o con la talla. Da cuenta del estado nutricional actual del individuo. 
+                  li.mb-3.d-flex
+                    i.far.fa-arrow-alt-circle-right 
+                    p.mb-0 Retraso en talla: también denominado como talla baja para la edad, que corresponde a un déficit en la talla con relación a la edad. El indicador T/E se encuentra por debajo de -2 desviaciones estándar.
+    
+    .bg-full-width.bg-color-3.mb-3
+      .px-4.px-md-5.py-4
+        .row.justify-content-center.align-items-end.mb-4
+          .col-lg-7(data-aos="fade-left")
+            h5.mb-4 Ampliemos la información sobre la desnutrición. En ella encontramos:
+            ul.lista-ul.mb-4
+              li.mb-0.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Desnutrición aguda moderada:</b> peso para la talla o longitud menor a -2-y mayor o igual a -3 Desviaciones estándar. 
+              li.mb-0.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Desnutrición aguda severa:</b> peso para la talla o longitud menor a -3 desviaciones estándar.
+              li.mb-0.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Obesidad infantil:</b> peso para la longitud/talla o IMC para la edad por encima de la línea de puntuación +3 desviaciones estándar en menores de 5 años y por encima de la línea de puntuación +2 desviaciones estándar en el grupo de 5 a 17 años de edad. 
+              li.mb-0.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Riesgo de desnutrición:</b> clasificación antropométrica entre las líneas de puntuación Z ≥ -2 y < -1 desviaciones estándar del indicador peso para la longitud/talla, IMC para la edad o del indicador longitud/talla para la edad.
+              li.mb-0.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Riesgo de sobrepeso:</b> clasificación antropométrica entre las líneas de puntuación Z >+1 y ≤+2 desviaciones estándar del indicador peso para la longitud/talla o del indicador IMC para la edad en menores de 5 años. 
+              li.mb-0.d-flex
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Sobrepeso infantil:</b> peso para la longitud/talla o IMC para la edad entre las líneas de puntuación Z >+2 y ≤+3 desviaciones estándar en menores de cinco años y >+1 y ≤+2 desviaciones estándar del indicador IMC/E en el grupo de edad de 5 a 17 años. 
+          .col-lg-5
+            figure
+              img(src="@/assets/curso/tema3/7.png", data-aos="zoom-in")
 
-    p La malnutrición infantil desencadena enfermedades físicas y agudas en la población. Cuando la enfermedad se prolonga, se asume el riesgo de consecuencias irreparables frente a la salud cognitiva, el desarrollo y hasta la vida del infante. 
-    p.mb-4.text-bold Dentro de las enfermedades asociadas a la malnutrición infantil, las más comunes son:
-
-    .row.align-items-start.mb-5
-      .col-lg-5.order-2
-        figure
-          img(src="@/assets/curso/tema3/7.png", alt="").mb-4.mb-lg-0
-      .col-lg-7.order-1.mb-3.mb-lg-0
-        AcordionA(tipo="b")
-          .div(titulo="Anemia")
-            p Sus síntomas son irritabilidad, lentitud, falta de fuerza muscular, pocos deseos de comer y experimentar dolor de cabeza o mareo.  
-            p Su piel se vuelve pálida en la palma de la mano, seca, escamosa y el cabello se torna seco, opaco y pajizo. 
-            p La anemia significa que hay bajos niveles de glóbulos rojos en el cuerpo, su principal causa es el bajo consumo de alimentos que contienen hierro.
-
-
-          .div(titulo="Diabetes")
-            p La sed excesiva, cansancio, idas al baño con mayor frecuencia con alto volumen de orina y los mareos son algunos de los síntomas.
-            p La obesidad es uno de los causantes de la diabetes tipo 2. 
-            p La obesidad causa que el páncreas produzca menos insulina para controlar los niveles de azúcar, y esto produce un mal funcionamiento en el organismo, para lo cual se requiere tratamiento.
-            p La diabetes tipo 2 se presenta cada vez más en niños y adolescentes, debido al tipo de alimentación y el estilo de vida.
-
-
-          .div(titulo="Hipertensión arterial")
-            p Los niños que tienen sobrepeso son propensos a sufrir de presión arterial alta. Entre los síntomas se encuentran la dificultad para respirar, alteraciones visuales, dolor de cabeza, mareos y fatiga.
-            p Detectar a tiempo que un niño sufre de hipertensión es clave para evitar que se vuelva un problema mayor, llegando a una enfermedad renal o cardiovascular. 
-
-
-          .div(titulo="Gastritis")
-            p Este trastorno digestivo se presenta por el consumo frecuente de comidas condimentadas o productos procesados. 
-            p También por no tomar los alimentos en horarios regulares o incluso saltarse las comidas como el desayuno o la cena.
-            p La gastritis se presenta como una inflación de la mucosa gástrica y el niño afectado puede tener síntomas como dolor abdominal, vómitos, falta de apetito, náuseas, y en casos más severos, puede estar acompañada con sangrados en los vómitos.
-          .div(titulo="Enfermedades odontológicas")
-            p El alto consumo de bebidas envasadas, alimentos procesados o dulces aumenta las posibilidades de tener una deficiente salud oral y en especial desarrollar caries y manchas en los dientes.
-          .div(titulo="Dificultades cognitivas asociadas a la baja ingesta de alimentos")
-            p El desarrollo motor y cognitivo se ve comprometido en el aprendizaje y las actividades físicas de los menores. Esto se evidencia en la medida en que el infante es expuesto a desarrollar tareas que no puede ejecutar o que presenta síntomas asociadas a dificultades en el aprendizaje.
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
     .bg-full-width.border-top.actividad.bg-color-actividad
@@ -152,11 +153,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00112012000500007#:~:text=En%20este%20sentido%2C%20las%20estrategias,docentes%20y%20de%20la%20comunidad" target="_blank" rel="noopener noreferrer") Camargo, C y Pinzón G (2012). La promoción de la salud en la primera infancia: evolución del concepto y su aplicación en el contexto internacional y nacional.
+              a(href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00112012000500007#:~:text=En%20este%20sentido%2C%20las%20estrategias,docentes%20y%20de%20la%20comunidad" target="_blank" rel="noopener noreferrer") Camargo, C y Pinzón G (2012). La promoción de la salud en la primera infancia: evolución del concepto y su aplicación en el contexto internacional y nacional. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=XaGXPtwqm3c" target="_blank" rel="noopener noreferrer") Acción Contra el Hambre (2023) 
+              a(href="https://open.spotify.com/episode/5ko712fy1DIMDHu5WJgwQO?si=P4UrJ-5ZTI2mV_KtA159bw&t=14 " target="_blank" rel="noopener noreferrer") Podcast Crianza Respetuosa. Episodio 8. Alimentación saludable en la infancia.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
