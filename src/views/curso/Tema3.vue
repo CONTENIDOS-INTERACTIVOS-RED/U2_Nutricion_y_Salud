@@ -183,30 +183,32 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Cuál es la finalidad de la Política Nacional de Infancia y Adolescencia? (CON)',
+            texto: 'Las curvas de crecimiento son un instrumento que: (APLI)',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
                 texto:
-                  'Contribuir al desarrollo integral de las niñas, niños y adolescentes.',
+                  'Se emplea en el sistema de salud para la promoción y prevención a partir de patrones de estatura, peso y tamaño de la cabeza de los niños',
                 esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Aumentar la población infantil.',
+                texto:
+                  'Se emplea en la nutrición y evita la comparación con otros infantes del mismo rango de edad.',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Reducir la pobreza en el país.',
+                texto:
+                  'Previene las condiciones de inequidad infantil en la desnutrición mundial',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Fomentar la educación superior.',
+                texto:
+                  'Permite la investigación de la calidad de productos alimenticios en las industrias nutricionales.',
                 esCorrecta: false,
               },
             ],
@@ -216,29 +218,30 @@ export default {
           {
             id: 2,
             texto:
-              '¿Qué documento internacional establece los derechos de los niños? (CON)',
+              'Una estrategia efectiva y sostenible para reducir la malnutrición infantil es: (APLI)',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Declaración Universal de los Derechos Humanos.',
+                texto: 'La ingesta de alimentos cada 2 horas',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Convención sobre los Derechos del Niño.',
-                esCorrecta: true,
+                texto:
+                  'La nutrición con productos empacados, con preservantes y enlatados para su uso en varios meses de preservación',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Código de la Infancia y la Adolescencia.',
+                texto: 'Preparados y empacados al vacío',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Pacto Internacional de Derechos Civiles.',
-                esCorrecta: false,
+                texto: 'Aprovechamiento de las cosechas y alimentos locales',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -247,28 +250,31 @@ export default {
           {
             id: 3,
             texto:
-              '¿Qué enfoque se utiliza para garantizar la equidad en la atención a la infancia y adolescencia? (CON)',
+              'Analizar la dentición infantil es importante en la nutrición porque: (APLI)',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Enfoque de desarrollo humano.',
-                esCorrecta: false,
+                texto:
+                  'La aparición y cambio en la dentadura infantil permitirá incluir alimentos para masticar – morder, en lugar de purés, para así reforzar la dentición.',
+                esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Enfoque de derechos humanos.',
+                texto: 'Los bebés suelen morder objetos y se pueden enfermar',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Enfoque de género.',
+                texto:
+                  'Es un indicador de falencias en proteínas de origen animal',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Enfoque diferencial.',
+                texto:
+                  'Los bebés que tienen dientes débiles deben recibir una prescripción médica',
                 esCorrecta: false,
               },
             ],
@@ -278,28 +284,32 @@ export default {
           {
             id: 4,
             texto:
-              '¿Qué porcentaje de la población colombiana entre 6 y 17 años corresponde a niñas, niños y adolescentes según el DANE en 2017? (CON)',
+              'No es una recomendación nutricional para niños y niñas de los 6 – 8 meses de edad: (APLI)',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: '22 %.',
-                esCorrecta: true,
+                texto:
+                  'Continúe ofreciendo leche materna a su bebé todas las veces que lo pida.',
+                esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: '20 %.',
+                texto:
+                  'Ofrezca un alimento nuevo a la vez junto con uno ya conocido.',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: '15 %.',
-                esCorrecta: false,
+                texto:
+                  'No introduzca alimentos sólidos porque podría genera intolerancia al bebé.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: '30 %.',
+                texto:
+                  'Ofrezca comidas muy espesas en puré, hasta que aparezca la habilidad de masticar.',
                 esCorrecta: false,
               },
             ],
@@ -309,28 +319,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Cuál es uno de los objetivos específicos de la Política Nacional de Infancia y Adolescencia? (CON)',
+              'El periodo de tránsito entre la lactancia materna y su suspensión requiere la inclusión de otros tipos de alimentos de denomina: (CON)',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomentar la migración juvenil.',
+                texto: 'Dentición',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Potenciar la capacidad de agencia y protagonismo.',
+                texto: 'Complementación',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Aumentar la matrícula escolar.',
+                texto: 'Asimilación',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Reducir la violencia intrafamiliar.',
+                texto: 'Compensación',
                 esCorrecta: false,
               },
             ],

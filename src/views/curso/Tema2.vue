@@ -305,11 +305,11 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/CKQuU1elvCk?si=K5AmH4QTnNtRyM-7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-4 En relación con la práctica de <b>extracción de la leche materna</b>, que es el mecanismo más seguro para que el bebé cuente con suficiente alimento y la madre pueda aprovechar su producción completa:
 
-    .bg-full-width-2.bg-fondo-slider
+    .bg-full-width-2.bg-fondo-slider.mb-4
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
