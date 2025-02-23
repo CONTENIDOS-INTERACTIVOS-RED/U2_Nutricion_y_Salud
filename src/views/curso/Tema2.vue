@@ -432,6 +432,8 @@
     
     #t_2_4.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.4] Alimentación de los infantes de los 2 años en adelante
+
+    p(data-aos="fade-right").mb-4 La alimentación en los primeros años de vida establece los cimientos para una relación saludable con los alimentos y un adecuado desarrollo físico y cognitivo.
     
     .bg-full-width.bg-color-2.mb-lg-5
       .px-4.p-md-5
